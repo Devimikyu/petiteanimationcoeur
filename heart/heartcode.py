@@ -207,6 +207,6 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print("OCURRIO UN ERROR:", e)
+        print("ERROR:", e)
         import traceback
         traceback.print_exc()
